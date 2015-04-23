@@ -18,7 +18,7 @@ typedef struct s_studente studente;
 int main(int argc, char** argv) {
     // Dichiara le variabili locali
     studente alunno;
-    int i; char NomeFile[MAX_STRLEN+1];
+    char NomeFile[MAX_STRLEN+1];
     FILE *pfile;
     
     // Codice per la richiesta del nome del file
